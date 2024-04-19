@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Google Earth Connector",
+  "version": "1.0",
+  "description": "Automatically play YouTube videos when the Google Earth tab is focused.",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
